@@ -1,0 +1,194 @@
+*{
+    margin: 0; padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn_primary{
+    padding: 20px 25px;
+    background: #F15B22;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.btn_white{
+    padding: 20px 25px;
+    background: white;
+    border: 0;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 20px 36px;
+}
+body{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/*Header Styles*//*Header Styles*/
+header{
+    background-image: url(images/banner1.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header_text{
+    width: 500px;
+    padding: 0px 230px;
+    text-align: right;
+}
+.header_text h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.header_text p{
+    margin-bottom: 30px;
+    color: #444343;
+    line-height: 26px;
+    font-weight: 400px;
+}
+
+/*failure Section Styles*//*failure Section Styles*/
+.failures_section{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin: 130px 0px; 
+    padding: 0px 230px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.failures_section_right_text{
+    width: 420px;
+}
+.failures_section_right_text p{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0px;
+    font-weight: 400;
+}
+.failures_section_right_text ul{
+    list-style-type: none;
+    
+}
+ul li{
+    margin-bottom: 20px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*my_plan styles*//*my_plan styles*/
+.plan_Section h2{
+    text-align: center;
+   margin: 50px 0px;
+}
+.plan_Section{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.plan_container{
+    display: flex;
+    gap: 100px;
+    padding: 0px 230px;
+    margin-top: 80px;
+}
+.plan_title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin: 16px 0px;
+}
+.plan_sub_title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/*To Do list styles*//*To Do list styles*/
+.to_do_list{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: #F8F8F8;
+    margin: 130px 0px;
+    padding: 0px 230px;
+}
+.to_do_list_container h2{
+    margin-bottom: 15px;
+}
+.to_do_list_container p{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.to_do_list_container ul{
+    list-style-type: none;
+}
+.to_do_list img{
+    width: 35%;
+}
+
+/*positive mindset styles*//*positive mindset styles*/
+.positive_mindset_contaier{
+    padding: 50px;
+    color: white;
+    margin: 150px 230px;
+    background-image: linear-gradient( to right, rgba(241, 91, 34, 1), rgba(255,0,0,0)), url(images/watch.png);
+    border-radius: 10px;
+}
+.positive_mindset_contaier h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*footer styles*/ /*footer styles*/
+footer{
+    background: #151414;
+}
+.footer_container{
+    display: flex;
+    color: #F8F8F8;
+    padding: 110px 230px;
+    justify-content: space-between;
+}
+.footer_left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    width: 500px;
+    line-height: 26px;
+}
+.footer_left img{
+    margin-right: 10px;
+}
+.footer_left h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer_right h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer_right input{
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #151414;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
